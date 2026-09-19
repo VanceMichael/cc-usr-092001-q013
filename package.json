@@ -1,0 +1,14 @@
+{
+  "name": "batch-092001-q013",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "migrate": "node scripts/migrate.js",
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
