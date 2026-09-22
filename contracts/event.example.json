@@ -1,8 +1,13 @@
 {
-  "schema_version": "1",
+  "schema_version": "2",
   "event_id": "EVENT-013-DEMO",
-  "subject_ref": "SUBJECT-013-DEMO",
-  "occurred_at": "2026-09-19T09:30:00+08:00",
-  "source_sequence": 1,
-  "payload_digest": "sha256:demo"
+  "source": "line-scanner-au-01",
+  "source_sequence": 42,
+  "subject_ref": "CARTON-013-DEMO",
+  "event_type": "carton.inspected",
+  "occurred_at": "2026-09-19T09:30:00+10:00",
+  "payload": {
+    "carton_ref": "CARTON-013-DEMO",
+    "at": "2026-09-19T09:30:00+10:00"
+  }
 }
